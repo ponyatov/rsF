@@ -1,4 +1,8 @@
 CARGO = ~/.cargo/bin/cargo
 
-all:
-	$(CARGO) run
+RSF = target/debug/rs_forth
+
+all: $(RSF) test.ml
+	./$^
+$(RSF): src/*
+	$(CARGO) build

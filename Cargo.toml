@@ -1,11 +1,13 @@
 [package]
+
 name = "rsF"
-version = "0.1.0"
+version = "0.0.1"
 authors = ["Dmitry Ponyatov <dponyatov@gmail.com>"]
 edition = "2018"
 
 [dependencies]
 
 [[bin]]
+
 name = "rs_forth"
 path = "src/main.rs"
