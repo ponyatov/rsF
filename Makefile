@@ -4,5 +4,5 @@ RSF = target/debug/rs_forth
 
 all: $(RSF) test.ml
 	./$^
-$(RSF): src/*
+$(RSF): src/* Cargo.toml
 	$(CARGO) build

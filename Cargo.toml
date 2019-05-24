@@ -1,11 +1,12 @@
 [package]
 
-name = "rsF"
+name = "rs_forth"
 version = "0.0.1"
 authors = ["Dmitry Ponyatov <dponyatov@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+rand = "0.6.5"
 
 [[bin]]
 
